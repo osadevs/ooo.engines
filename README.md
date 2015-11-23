@@ -16,5 +16,7 @@ Apart the simulation engine, OSA aims at integrating useful tools for modeling, 
 
 OSA is composed of multiples, possibly many, maven sub-projects. However to allow better flexibility, these projects are structurd following a flat structure.
 
+## About this module
 
-
+This is the root for the engine(s) modules of OSA. A good place to put common declarations/configurations 
+for all engines.

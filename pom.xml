@@ -30,29 +30,8 @@
 	<name>OSA Simulation Engines</name>
 	<packaging>pom</packaging>
 
-	<profiles>
-	<profile>
-		<id>javadoc-only</id>
-
-		<build>
-			<plugins>
-				<!-- Add automatic generation of javadoc archive to all descendent projects 
-					such that the javadoc can be automatically downloaded and installed along 
-					with the binary archive. -->
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-javadoc-plugin</artifactId>
-					<executions>
-						<execution>
-							<id>attach-javadocs</id>
-							<goals>
-								<goal>jar</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
-			</plugins>
-		</build>
-	</profile>
-</profiles>
+	<description>
+	This is the root for the engine(s) modules of OSA. A good place to put common declarations/configurations 
+	for all engines.
+	</description>
 </project>
