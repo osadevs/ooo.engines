@@ -33,4 +33,8 @@
 	This is the root for the engine(s) modules of OSA. A good place to put common declarations/configurations 
 	for all engines.
 	</description>
+	
+	<modules>
+	   <module>../ooo.engines.newdes</module>
+	</modules>
 </project>
